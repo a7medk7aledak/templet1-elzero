@@ -83,9 +83,6 @@
   .header .links {
     position: relative;
   }
-  /* .header .links:hover .icon span:nth-child(2) {
-    width: 100%;
-  } */
   .header .links .icon {
     width: 30px;
     display: flex;
@@ -424,6 +421,9 @@
   .contact .info .social i {
     margin-left: 10px;
     color: var(--secondary-color);
+  }
+  .contact .info .social i:hover {
+    color: var(--main-color);
   }
   @media (max-width: 767px) {
     .contact .info .label,
